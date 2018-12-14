@@ -1,0 +1,39 @@
+﻿@using WebApplication1.Models;
+@*@model Customer*@
+
+@{
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @{
+            Employee emp = (Employee)ViewData["Employee"];
+            Customer cus = (Customer)ViewData["Customer"];
+        }
+        @*<h2>@Model.CustomerName , @((string)ViewData["greeting"])</h2>
+        <p>@Model.CustomerName</p>
+        <p>@Model.Address</p>*@
+
+        
+        <h2>客户信息</h2>
+        <p>姓名：@cus.CustomerName</p>
+        <p>职业：@cus.Address</p>
+
+        <h2>员工信息</h2>
+        <p>姓名：@emp.Name</p>
+        <p>工资：@emp.Salary.ToString("C")</p>
+        
+       
+        
+    </div>
+</body>
+</html>
