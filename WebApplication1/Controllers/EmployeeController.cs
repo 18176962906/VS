@@ -17,11 +17,7 @@ namespace WebApplication1.Controllers
             employeeListViewModel.EmployeeViewList = getEmpVmList();
             employeeListViewModel.Greeting = getGreeting();
             employeeListViewModel.UserName = getUserName();
-
-
             return View(employeeListViewModel);
-
-
         }
         [NonAction]
         List<EmployeeViewModel> getEmpVmList()
@@ -29,13 +25,13 @@ namespace WebApplication1.Controllers
             //实例化员工信息业务chen
             EmployeeBusinessLayer empBal = new EmployeeBusinessLayer();
             var listEmp = empBal.GetEmployees();
-            var listEmpVm= new List<EmployeeViewModel>();
+            var listEmpVm = new List<EmployeeViewModel>();
             foreach (Employee emp in listEmp)
             {
                 EmployeeViewModel empViewModel = new ViewModels.EmployeeViewModel();
                 empViewModel.EmployeeName = emp.Name;
                 empViewModel.Salary = emp.Salary.ToString("C");
-                if (emp.Salary > 10000)
+                if (emp.Salary > 7000)
                 {
                     empViewModel.SalaryGrade = "土豪";
                 }
@@ -48,7 +44,6 @@ namespace WebApplication1.Controllers
             return listEmpVm;
         }
         [NonAction]
-
         string getGreeting()
         {
             string greeting;
@@ -69,15 +64,19 @@ namespace WebApplication1.Controllers
             ViewData["greeting"] = greeting;
             return greeting;
         }
-
         [NonAction]
-
         string getUserName()
         {
             return "Admin";
 
         }
-
-        
+        public ActionResult AddNew()
+        {
+            return View("CreateEmployee");
+        }
+        public string SaveEmployee(Employee e)
+        {
+            return "姓名：" + e.Name + "工资：" + e.Salary;
+        }
     }
 }

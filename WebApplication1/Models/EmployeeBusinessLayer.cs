@@ -12,6 +12,13 @@ namespace WebApplication1.Models
         {
             SalesERPDL salesDal = new SalesERPDL();
             return salesDal.Employees.ToList();
+            //var list = new List<Employee>();
+            //Employee emp = new Models.Employee();
+            //emp.Name = "zhangsan";
+            //emp.Salary = 12333;
+            //list.Add(emp);
+
+
 
         }
     }
