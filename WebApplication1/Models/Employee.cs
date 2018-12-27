@@ -9,16 +9,10 @@ namespace WebApplication1.Models
     public class Employee
     {
         [Key]
-        public int Employeeid { get; set; }
-        public string Name
-        {
-            get;
-            set;
-        }
-        public int Salary
-        {
-            get;
-            set;
-        }
+        public int Employeeld { get; set; }
+
+        public string Name{ get; set; }
+
+        public int Salary { get; set; }
     }
 }

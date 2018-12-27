@@ -1,66 +1,26 @@
-﻿@using WebApplication1.ViewModels
-@*@model EmployeeViewModel*@
-@model EmployeeListViewModel
-@{
-    Layout = null;
-    //Employee emp = (Employee)ViewBag.Employee;
+﻿@using WebApplication1.ViewModels;
+@model EmployeeViewModels
+ @{ 
+    Layout = null; 
 }
 
 <!DOCTYPE html>
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>MyView</title>
 </head>
 <body>
-    <h1>你好，@Model.UserName</h1>
+   
+    
+        <h1>你好,@Model.UserName</h1>
+        <hr/>
     <div>
-        <table>
-            <tr>
-                <th>名字</th>
-                <th>工资</th>
-                <th>级别</th>
-            </tr>
-            @foreach(EmployeeViewModel item in Model.Employees)
-            {
-                <tr>
-                    <td>@item.EmployeeName</td>
-                    <td>@item.Salary</td>
-                    <td>@item.SalaryGrade</td>
-                </tr>
-            }
-        </table>
-
-
-
-
-        @*<h1>你好，@Model.UserName</h1>
-        <b>员工信息</b>
-        姓名：@Model.EmployeeName<br />
-        工资：@Model.Salary<br />
-        级别：@Model.SalaryGrade<br />*@
-
-
-
-
-
-
-        @*@{Employee emp = (Employee)ViewData["Employee"];}*@
-        @*<h2>@Model.Name , @((string)ViewData["greeting"])!</h2>*@
-        @*<h2>@emp.Name , @ViewBag.greeting</h2>*@
-        @*<h2>员工信息</h2>*@
-                @*<@*p>员工:@Model.Name</p>*@
-                @*<p>工资：@Model.Salary.ToString("C")</p>*@
-        @*@{ 
-            if (Model.Salary > 1000)
-            {
-                <p>土豪</p>
-            }
-            else
-            {
-                <p>屌丝</p>
-            }
-        }*@
-    </div>
+        <b>员工信息</b><br/>
+        姓名：@Model.EmployeeName<br/>
+        工资：@Model.EmployeeSalary<br/>
+        级别：@Model.EmployeeGrade
+</div>
 </body>
 </html>
