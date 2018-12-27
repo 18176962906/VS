@@ -24,37 +24,35 @@ namespace WebApplication1.Controllers
             return View(empListModel);
         }
         [NonAction]
-        List<EmployeeViewModels> getEmpVmList()
+        //转到视图
+        public ActionResult CreateEmployee()
         {
-            //实例化员工信息
-            EmployeeBusinessLayer empBL = new EmployeeBusinessLayer();
-            //员工原始数据列表，获取来自业务层类的数据
-            var listEmp = empBL.GetEmployeeList();
-            //员工原始数据加工后的视图数据列表，当前状态是空的
-            var listEmpVm = new List<EmployeeViewModels>();
-            //通过循环遍历员工原始数据数组，将数据一个一个的转换，并加入listEmpVm
-            foreach (var item in listEmp)
-            {
-                EmployeeViewModels empVmObj = new EmployeeViewModels();
-                empVmObj.EmloyeeId = item.Employeeld;
-                empVmObj.EmployeeName = item.Name;
-                empVmObj.EmployeeSalary = item.Salary.ToString("C");
-                if (item.Salary > 10000)
-                {
-                    empVmObj.EmployeeGrade = "土豪";
-                }
-                else
-                {
-                    empVmObj.EmployeeGrade = "20";
-                }
-                listEmpVm.Add(empVmObj);
-            }
-            return listEmpVm;
+            return View();
         }
-        public ActionResult AddNew()
+        public ActionResult CreateEmployee(Employee emp)
         {
-            return View("CreateEmployee");
+            EmployeeBusinessLayer ebl = new EmployeeBusinessLayer();
+            ebl.AddEmployee(emp);
+            return RedirectToAction("index");
         }
+        //修改
+        public ActionResult Edit(int id)
+        {
+            //ViewBag.id = id;
+            EmployeeBusinessLayer ebl = new EmployeeBusinessLayer();
+            Employee emp = ebl.Query(id);
+            return View(emp);
+        }
+        [HttpPost]
+        public ActionResult Edit(Employee emp)
+        {
+            EmployeeBusinessLayer ebl = new EmployeeBusinessLayer();
+            ebl.Update(emp);
+            return RedirectToAction("index");
+        }
+
+          
+
         //增加
         public ActionResult Save(Employee emp)
         {
@@ -63,6 +61,8 @@ namespace WebApplication1.Controllers
             // return (emp.Name + "-----" + emp.Salary.ToString());
             return new RedirectResult("index");
         }
+
+
         //删除
         public ActionResult Delete(int id)
         {
@@ -72,6 +72,7 @@ namespace WebApplication1.Controllers
             return RedirectToAction("index");
         }
         [NonAction]
+        //问候语
         string getGreeting()
         {
             string greeting;
@@ -89,9 +90,38 @@ namespace WebApplication1.Controllers
             return greeting;
         }
         [NonAction]
+        //管理员
         string getUserName()
         {
             return "Admin";
+        }
+        //判断早晚
+        List<EmployeeViewModels> getEmpVmList()
+        {
+            //实例化员工信息
+            EmployeeBusinessLayer empBL = new EmployeeBusinessLayer();
+            //员工原始数据列表，获取来自业务层类的数据
+            var listEmp = empBL.GetEmployeeList();
+            //员工原始数据加工后的视图数据列表，当前状态是空的
+            var listEmpVm = new List<EmployeeViewModels>();
+            //通过循环遍历员工原始数据数组，将数据一个一个的转换，并加入listEmpVm
+            foreach (var item in listEmp)
+            {
+                EmployeeViewModels empVmObj = new EmployeeViewModels();
+                empVmObj.EmloyeeId = item.EmployeelD;
+                empVmObj.EmployeeName = item.Name;
+                empVmObj.EmployeeSalary = item.Salary.ToString("C");
+                if (item.Salary > 10000)
+                {
+                    empVmObj.EmployeeGrade = "土豪";
+                }
+                else
+                {
+                    empVmObj.EmployeeGrade = "20";
+                }
+                listEmpVm.Add(empVmObj);
+            }
+            return listEmpVm;
         }
     }
 }

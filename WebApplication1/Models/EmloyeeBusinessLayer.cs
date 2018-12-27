@@ -39,5 +39,24 @@ namespace WebApplication1.Models
 
             }
         }
+        //更新
+        public void Update(Employee emp)
+        {
+            using (var db = new SalesERPDAL())
+            {
+                db.Entry(emp).State = EntityState.Modified;
+                db.SaveChanges();
+
+            }
+        }
+        public Employee Query(int id)
+        {
+            using (var db = new SalesERPDAL())
+            {
+                Employee emp = db.Employee.Find(id);
+                return emp;
+            }
+        }
+
     }
 }
