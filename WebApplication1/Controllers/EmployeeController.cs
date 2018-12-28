@@ -35,6 +35,13 @@ namespace WebApplication1.Controllers
             ebl.AddEmployee(emp);
             return RedirectToAction("index");
         }
+        //查找
+        public ActionResult Search( string searchString)
+        {
+            EmployeeBusinessLayer ebl = new EmployeeBusinessLayer();
+             var queryResult = ebl.Search(searchString);
+            return View(queryResult);
+        }
         //修改
         public ActionResult Edit(int id)
         {
@@ -50,9 +57,6 @@ namespace WebApplication1.Controllers
             ebl.Update(emp);
             return RedirectToAction("index");
         }
-
-          
-
         //增加
         public ActionResult Save(Employee emp)
         {
@@ -61,8 +65,6 @@ namespace WebApplication1.Controllers
             // return (emp.Name + "-----" + emp.Salary.ToString());
             return new RedirectResult("index");
         }
-
-
         //删除
         public ActionResult Delete(int id)
         {

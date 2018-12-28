@@ -14,7 +14,6 @@ namespace WebApplication1.Models
         {
             using (SalesERPDAL dal = new SalesERPDAL())
             {
-
                 var list = dal.Employee.ToList();
                 return list;
             }
@@ -55,6 +54,13 @@ namespace WebApplication1.Models
             {
                 Employee emp = db.Employee.Find(id);
                 return emp;
+            }
+        }
+        public IEnumerable<Employee> Search(string searchString)
+        {
+            using (var db = new SalesERPDAL())
+            {
+                return db.Employee.Where(e => e.Name.Contains(searchString)).ToList();
             }
         }
 

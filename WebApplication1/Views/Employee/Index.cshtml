@@ -14,6 +14,10 @@
 <body>
     <h2>@Model.UserName,@Model.Greeting</h2>
     <p><a href="/Employee/CreateEmployee">新增</a></p>
+    <form action="/employee/Search" method="post">
+        关键字：<input type="text" name="searchString" value=""><br />
+        <input type="submit" value="搜索">
+    </form>
     <div> 
         <ul>
         @foreach (var item in Model.EmployeeViewList)
