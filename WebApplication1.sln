@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "..\vss-master\MvcMovie\MvcMovie\MvcMovie.csproj", "{777BCD2A-DE88-4FDB-A85A-F370700A30DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "..\wg\ContosoUniversity\ContosoUniversity.csproj", "{7D7704F6-3326-40AC-AFD4-8245D784E800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoUniversity", "..\MVCWeb\ContosoUniversity\ContosoUniversity.csproj", "{7D7704F6-3326-40AC-AFD4-8245D784E800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
