@@ -28,3 +28,15 @@ C:\Users\admin\Desktop\VS\ConsoleApplication1\bin\Debug\EntityFramework.SqlServe
 C:\Users\admin\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\admin\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\admin\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CopyComplete
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Desktop\VS\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
