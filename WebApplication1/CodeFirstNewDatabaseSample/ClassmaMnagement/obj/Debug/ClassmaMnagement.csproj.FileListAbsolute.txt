@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\ClassmaMnagement.exe.config
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\ClassmaMnagement.exe
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\ClassmaMnagement.pdb
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\obj\Debug\ClassmaMnagement.exe
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\obj\Debug\ClassmaMnagement.pdb
+C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\ClassmaMnagement\obj\Debug\ClassmaMnagement.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\WebApplication1\CodeFirstNewDatabaseSample\ClassmaMnagement\bin\Debug\ClassmaMnagement.exe.config
+C:\Users\admin\Desktop\WebApplication1\CodeFirstNewDatabaseSample\ClassmaMnagement\obj\Debug\ClassmaMnagement.exe
+C:\Users\admin\Desktop\WebApplication1\CodeFirstNewDatabaseSample\ClassmaMnagement\obj\Debug\ClassmaMnagement.pdb
