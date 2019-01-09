@@ -10,3 +10,17 @@ C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj
 C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.pdb
 C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.Migrations.InitialCreate.resources
 C:\Users\admin\Desktop\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.exe.config
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.exe
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\CodeFirstNewDatabaseSample.pdb
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.Migrations.InitialCreate.resources
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.csproj.CopyComplete
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.exe
+C:\Users\Administrator\Desktop\VS\WebApplication1\CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample\obj\Debug\CodeFirstNewDatabaseSample.pdb

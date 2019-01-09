@@ -110,8 +110,6 @@ namespace WebApplication1.Controllers
             return listEmpVm;
 
         }
-
-
         [NonAction]
         // 获取问候语
         string getGreeting()
