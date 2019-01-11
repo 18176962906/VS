@@ -1,0 +1,24 @@
+﻿@model WebApplication1.ViewModel.ListViewModel
+@{
+    ViewBag.Title = "Singer";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Singer</title>
+</head>
+<body>
+    <div>
+        @foreach (var item in Model.MusicViewList)
+        {
+            <ul class="nav">
+                @Html.DisplayFor(modelItem => item.UserName)
+                <a href=" ">查看▶</a>
+            </ul>
+        }
+    </div>
+</body>
+</html>
